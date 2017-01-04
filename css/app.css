@@ -1,0 +1,95 @@
+body {
+    background-color: #F5FDFF
+
+}
+
+.headers {
+    color: #8C999A;
+    background-color: #F5FDFF;
+
+}
+div {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+} 
+
+.wall {
+    background-image: url("../img/wall.png");
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: darkgray;
+}
+
+
+.storage {
+    background-image: url("../img/storage.png"), url("../img/floor.png");
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.floor {
+    background-image: url("../img/floor.png");
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table {
+    margin: 0 auto;
+    border: 12px #DDF0E2 solid;
+    border-collapse: collapse;
+}
+
+.gameBoard img {    
+    width: 100%;
+    height: 45px;
+}
+
+.gameBoard td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #DDF0C2;
+    cursor: pointer;
+}
+
+.gameBoard td:hover {
+        box-shadow: inset 0 0 0 2px #b3b3ff;
+}
+
+img {
+    display: none;
+}
+
+img[src] {
+    display: block;
+}
+
+h3 {
+    margin-top: 1px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.Buttons a:link, a:visited {
+    background-color: #8C999A;
+    border-radius: 50%;
+    color: #DDF0C2;
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Buttons a:hover, a:active {
+    background-color: #DDF0C2;
+    color: #8C999A;
+    box-shadow: inset 0 0 0 7px #8C999A;
+}
